@@ -45,12 +45,12 @@ void setup() {
   pinMode(switchPin, INPUT);
 
   // Print a message to the LCD.
-  lcd.print("Ask the");
+  lcd.print("Ask RJ");
   // set the cursor to column 0, line 1
   // line 1 is the second row, since counting begins with 0
   lcd.setCursor(0, 1);
   // print to the second line
-  lcd.print("Crystal Ball!");
+  lcd.print("Makers Gona Make!");
 }
 
 void loop() {
@@ -69,30 +69,30 @@ void loop() {
       // set the cursor to column 0, line 0
       lcd.setCursor(0, 0);
       // print some text
-      lcd.print("the ball says:");
+      lcd.print("RJ says:");
       // move the cursor to the second line
       lcd.setCursor(0, 1);
 
       // choose a saying to print based on the value in reply
       switch (reply) {
         case 0:
-          lcd.print("Yes");
+          lcd.print("Blog about it");
           break;
 
         case 1:
-          lcd.print("Most likely");
+          lcd.print("Repo to GitHub");
           break;
 
         case 2:
-          lcd.print("Certainly");
+          lcd.print("Lego");
           break;
 
         case 3:
-          lcd.print("Outlook good");
+          lcd.print("Lots of practice");
           break;
 
         case 4:
-          lcd.print("Unsure");
+          lcd.print("Check your code");
           break;
 
         case 5:
@@ -100,7 +100,7 @@ void loop() {
           break;
 
         case 6:
-          lcd.print("Doubtful");
+          lcd.print("404 Erorr");
           break;
 
         case 7:
