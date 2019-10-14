@@ -2,4 +2,4 @@
 Arduino Crystal ball  
 
 Diagram:
-![diagram image 
+![diagram image](https://github.com/dmltw0/Arduino-Learning/blob/master/Crystal-Ball.png)
